@@ -1,3 +1,8 @@
+.header1{color:#9fb1bc;
+    font-size: 19px;
+
+}
+
 #header{
     border:#9fb1bc; 
     border: width 100px; 
@@ -67,28 +72,42 @@ body{
     text-align: center;
 }
 .images1{
-    margin-top: 50pt;
-    margin-left: 100pt;
+    width: 10pt;
+    height: 10pt;
+    margin-top: 35pt;
 }
 .After-graduation{
     margin-top: 150pt;
     text-align: center;
     font-size: 26.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .images2{
     margin-bottom: 25pt;
     margin-right: 100pt;
 }
 #contact{
-    font-size: 17px;
+    font-size: 19px;
     font-weight: bold;
-    margin-top: -100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 15px 15px 0 rgba(0,0,0,0.2);
+    display: flex;
     transition: 0.3s;
     width: 40%;
-    margin-top: 40pt;
+    margin-top: 80pt;
+    font-size: 20px;
+    position: relative;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    
     
   }
   
@@ -100,19 +119,62 @@ body{
     padding: 2px 16px;
   }
   .card1 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
     width: 40%;
-    margin-left: 625pt;
+    /* margin-left: 425pt; */
+    margin-bottom: 100pt;
     position: relative;
-    top: -250px;
+    /* top: 450px; */
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 35%;
     
   }
   
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+  .container {
+    width: 40%;
+    margin-bottom: 100pt;
+    position: relative;
+    font-size: 20px;
+    
+  }
   
   .container1 {
     padding: 2px 16px;
   }
+#HTML{
+    width: 150pt;
+    margin-left: 50pt;
+}
+#languages{
+    margin-left: -150px;
+}
+#JS{
+    margin-left: 150pt;
+}
+#Java{
+    margin-left: 100pt;
+}
+#spring{
+    margin-left: 200pt;
+    margin-top: -300pt;
+}
+#sql{
+    margin-left: 500pt;
+    margin-top: -1000pt;
+}
+#django{
+    margin-left: 800pt;
+    margin-top: -3000pt;
+}
+@media screen {
+    .After-graduation img{
+        height: 100px;
+        width: autos;
+    }
+    
+}
