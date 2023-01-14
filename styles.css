@@ -44,6 +44,7 @@ body{
 .link-group{
     list-style: none;
     display: flex;
+    color: #2E5266;
 }
 
 .link a{
