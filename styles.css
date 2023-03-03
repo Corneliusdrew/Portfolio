@@ -14,6 +14,7 @@
     font-size: 65px;
 }
 #header2{
+    margin-top: 10pt;
     font-size: 35px;
     color: #d3d0cb;
     text-align: center;
@@ -70,6 +71,7 @@ body{
 .text{
     font-size: xx-large;
     text-align: center;
+    margin-top: 20pt;
 }
 .images1{
     width: 10pt;
@@ -93,11 +95,11 @@ body{
     font-weight: bold;
     margin-bottom: 100px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin: auto;
 }
 .card {
-    box-shadow: 0 15px 15px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 15px 15px 0 rgba(0,0,0,0.2);
     display: flex;
     transition: 0.3s;
     width: 40%;
@@ -106,13 +108,26 @@ body{
     position: relative;
     left: 15%;
     display: flex;
+    flex-direction: column; */
+    width: 40%;
+    /* margin-left: 425pt; */
+    margin-bottom: 100pt;
+    position: relative;
+    /* top: 450px; */
+    font-size: 20px;
+    display: flex;
     flex-direction: column;
+    position: relative;
+    left: 45%;
     
     
   }
+
   
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card1:hover{    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
   .container {
@@ -128,7 +143,10 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 35%;
+    left: 45%;
+    padding: 2px 16px;
+
+
     
   }
   .text{
